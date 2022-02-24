@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="StyleSheet" href="estilos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <meta charset="UTF-8" />
+
+    <title>Portafolio</title>
+
+    <link rel="icon" type="image/png" href="favicon.png" sizes="16x16" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/7653c9fa22.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <section>
+      <header class="header">
+        <p class="letter-logo">Logo</p>
+
+        <ol>
+          <li><a href="index.html" class="letter-header">Home</a></li>
+          <li>
+            <a href="#sobre-mi-container" class="letter-header">About Me</a>
+          </li>
+          <li><a href="#seccion-2" class="letter-header">Tools</a></li>
+          <li>
+            <a href="" class="letter-header"
+              >Portafolio</a
+            >
+          </li>
+        </ol>
+      </header>
+
+      <div class="container">
+        <div class="welcome-container">
+          <h1>Welcome</h1>
+          <h2>To my Portafolio</h2>
+        </div>
+
+        <div class="imagen-container">
+          <img
+            src="/imagenes/Hombre.png"
+            alt="Imagen de un dibijo animado"
+            class="imagen n"
+          />
+        </div>
+      </div>
+
+      <div class="button-container">
+        <div class="button-down">
+          <a href="#sobre-mi-container"><i class="fas fa-chevron-down"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre-mi-container">
+      <p>About Me</p>
+
+      <span class="sobre-mi-cards-container">
+        <a href="#seccion-1">
+          <span class="card-one" data-hover="About me"
+            ><i class="fas fa-user-alt"></i
+          ></span>
+        </a>
+
+        <a href="#seccion-2">
+          <span class="card-two" data-hover="Tools"
+            ><i class="fas fa-code"></i
+          ></span>
+        </a>
+
+        <a href="">
+          <span class="card-three" data-hover="Portafolio"
+            ><i class="fas fa-briefcase"></i
+          ></span>
+        </a>
+      </span>
+
+      <svg
+        class="waves__sobre__mi"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#007FFF"
+          fill-opacity="1"
+          d="M0,160L80,181.3C160,203,320,245,480,229.3C640,213,800,139,960,133.3C1120,128,1280,192,1360,224L1440,256L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
+        ></path>
+      </svg>
+    </section>
+
+    <section id="seccion-1">
+      <div class="svg-container" data-aos="zoom-in" data-aos-duration="1000">
+        <img src="/SVG-content/undraw_programming_re_kg9v.svg" alt="" />
+      </div>
+
+      <div class="svg-information">
+        <h3>About me</h3>
+
+        <p class="sobre__mi">
+          I'm an 18 year developer who like to make projects for fun while 
+          i'm learning at the university, personally i'm a creative person who 
+          want to learn more and more every day and a think that's made me special.
+          I love the world of coding in all the way.
+        </p>
+      </div>
+
+      <div
+        class="svg__information__sobre__mi"
+        data-aos="fade-left"
+        data-aos-duration="1000"
+      >
+        <img src="/SVG-content/undraw_designer_re_5v95.svg" alt="" />
+        <div class="svg__information__text__container">
+          <p>No matter the situation, I always try to deliver my work on time.</p>
+        </div>
+      </div>
+
+      <div
+        class="svg__information__sobre__mi__2"
+        data-aos="fade-right"
+        data-aos-duration="1000"
+      >
+        <img src="/SVG-content/undraw_coding_re_iv62.svg" alt="" />
+        <div class="svg__information__text__container__v2">
+          <p>When I'm working I concentrate to do the things very well.</p>
+        </div>
+      </div>
+
+      <div
+        class="svg__information__sobre__mi__3"
+        data-aos="fade-left"
+        data-aos-duration="1000"
+      >
+        <img src="/SVG-content/undraw_shared_workspace_re_3gsu.svg" alt="" />
+
+        <div class="svg__information__text__container">
+          <p>I can work in a team without any problem.</p>
+        </div>
+      </div>
+
+      <div
+        class="svg__information__sobre__mi__4"
+        data-aos="fade-right"
+        data-aos-duration="1000"
+      >
+        <img src="/SVG-content/undraw_security_on_re_e491.svg" alt="" />
+        <div class="svg__information__text__container__v2">
+          <p>I offer security and trust for the people i will colaborate.</p>
+        </div>
+      </div>
+
+      <div class="button-contact">
+        <button>Contactame</button>
+      </div>
+    </section>
+
+    <section id="seccion-2">
+      <p class="tools__text">Tools</p>
+
+      <div class="cards__tool__container">
+        <div
+          class="tools__container__1"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <div class="svg__container__tools__1">
+            <img src="/SVG-content/undraw_code_thinking_re_gka2.svg" alt="" />
+          </div>
+
+          <h3 class="titulo">What I like desing</h3>
+
+          <p class="like__desing">Web, Mobile, Apps, Logos</p>
+
+          <div class="tool__text__container">
+            <h3 class="Tools__desing">Tools For Desing</h3>
+
+            <ol>
+              <li>Photoshop</li>
+              <li>Illustrator</li>
+              <li>Adobe XD</li>
+              <li>Figma</li>
+            </ol>
+          </div>
+        </div>
+
+        <div
+          class="tools__container__2"
+          data-aos="fade-down"
+          data-aos-duration="2000"
+        >
+          <div class="svg__container__tools">
+            <img src="/SVG-content/undraw_code_review_re_woeb.svg" alt="" />
+          </div>
+
+          <h3 class="titulo">What I speak</h3>
+
+          <p class="like__desing">HTML, CSS, Javascript, Python</p>
+
+          <div class="tool__text__container">
+            <h3 class="Tools__desing">Developer Tools</h3>
+
+            <ol>
+              <li>Git</li>
+              <li>Github</li>
+              <li>MySQL</li>
+              <li>Visual Code</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="contact__card__container" data-aos="flip-up">
+      <div>
+        <p>Want To start a Project?</p>
+      </div>
+
+      <div class="text__contact">
+        Interested in working together? We should queue up a chat. I’ll buy the
+        coffee.
+      </div>
+      <span>
+        <button>Let's do it</button>
+      </span>
+    </div>
+
+    <footer>
+      <p>Uncanny.org all Right reserved ©</p>
+
+      <div>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </footer>
+
+    <script src="java.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({});
+    </script>
+  </body>
+</html>
