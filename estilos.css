@@ -547,10 +547,12 @@ h3 {
   margin-top: 40px;
   font-family: sans-serif;
   font-weight: 500;
+  color: #090909;
 }
 
 .tool__text__container {
   text-align: center;
+  
 }
 
 .Tools__desing {
@@ -562,13 +564,16 @@ h3 {
 
 .tool__text__container ol {
   list-style: none;
+  color: #090909;
 }
 
 .tool__text__container ol li {
   margin-top: 5px;
   font-family: sans-serif;
   font-weight: 500;
+  color:#090909 ;
 }
+
 
 /* section lenguajes */
 
